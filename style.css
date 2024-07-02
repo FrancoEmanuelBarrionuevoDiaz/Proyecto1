@@ -1,0 +1,39 @@
+body {
+    background-image: url('img.jpg');
+    background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center center; /* Centra la imagen */
+    margin: 0; /* Elimina los márgenes por defecto del cuerpo */
+    height: 100vh; /* Asegura que el cuerpo cubra toda la ventana del navegador */
+    display: flex; /* Usa Flexbox para centrar el cuadro */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.content-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Color de fondo con opacidad */
+    margin: 20px;
+    padding: 20px; /* Espacio interno */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para el cuadro */
+    height: calc(100% - 50px);
+    width: calc(100% - 40px);
+    overflow: auto;
+}
+
+h2 {
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
+
+.titulos-partes {
+    text-align: center;
+}
+
+h6 {
+    color:blueviolet;
+}
